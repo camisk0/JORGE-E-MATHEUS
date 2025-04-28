@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Início - Jorge & Mateus</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">Jorge & Mateus</div>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+      </ul>
+    </nav>
+    <div class="accessibility-buttons">
+      <button id="increase-font">A+</button>
+      <button id="decrease-font">A-</button>
+      <button id="dark-mode-toggle">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Bem-vindo ao Mundo de Jorge & Mateus</h1>
+      <p>Conheça a trajetória da dupla que conquistou o Brasil com sua música.</p>
+    </section>
+
+    <section class="image-description">
+      <div class="item">
+        <img src="https://cdn.gazetadopovo.com.br/2022/04/21154731/jorgeemateus-960x540.jpeg" alt="Jorge e Mateus show"/>
+        <p>Com uma carreira repleta de sucessos, Jorge & Mateus são referência no sertanejo universitário.</p>
+      </div>
+      <div class="item">
+        <img src="https://midias.correiobraziliense.com.br/_midias/jpg/2022/05/07/675x450/1_jorgeemateus-25451434.jpg" alt="Turnê da dupla"/>
+        <p>Shows lotados por todo o Brasil e canções que embalam gerações.</p>
+      </div>
+      <div class="item">
+        <img src="https://static1.purepeople.com.br/articles/5/38/67/5/@/430812-jorge-e-mateus-lancam-album-tudo-em-pa-624x600-2.jpg" alt="Novo álbum"/>
+        <p>O álbum mais recente reforça a identidade única e a evolução musical da dupla.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section class="contact">
+      <h2>Fale Conosco</h2>
+      <form action="mailto:contato@jorgeemateus.com" method="post" enctype="text/plain">
+        <label for="email">Seu E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Enviar Mensagem</button>
+      </form>
+    </section>
+    <p>&copy; 2025 Jorge & Mateus. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

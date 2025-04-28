@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sobre - Jorge & Mateus</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">Jorge & Mateus</div>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+      </ul>
+    </nav>
+    <div class="accessibility-buttons">
+      <button id="increase-font">A+</button>
+      <button id="decrease-font">A-</button>
+      <button id="dark-mode-toggle">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Sobre Jorge & Mateus</h1>
+      <p>Uma história de amizade, talento e paixão pela música sertaneja.</p>
+    </section>
+
+    <section class="image-description">
+      <div class="item">
+        <img src="https://vejario.abril.com.br/wp-content/uploads/2016/11/jorge-e-mateus.jpg" alt="Início da carreira"/>
+        <p>Desde 2005, Jorge & Mateus conquistam o público com suas letras românticas e animadas.</p>
+      </div>
+      <div class="item">
+        <img src="https://portalpopline.com.br/wp-content/uploads/2022/03/jorge-mateus-ampliacao-turne-e-spotify.jpg" alt="Carreira internacional"/>
+        <p>Sucesso não só no Brasil, mas também em palcos internacionais, levando o sertanejo para o mundo.</p>
+      </div>
+      <div class="item">
+        <img src="https://istoe.com.br/wp-content/uploads/sites/14/2022/08/jorge-e-mateus.jpeg" alt="Sucesso atual"/>
+        <p>Com mais de 10 álbuns lançados, eles seguem no topo das paradas com músicas que embalam milhões de fãs.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section class="contact">
+      <h2>Fale Conosco</h2>
+      <form action="mailto:contato@jorgeemateus.com" method="post" enctype="text/plain">
+        <label for="email">Seu E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Enviar Mensagem</button>
+      </form>
+    </section>
+    <p>&copy; 2025 Jorge & Mateus. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
